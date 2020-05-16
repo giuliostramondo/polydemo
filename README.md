@@ -8,10 +8,10 @@ Demo for Polyhedral compilation lecture
 [Demo 3: Automatic Representation Extraction](http://playground.pollylabs.org/?sess=%7B%221%22%3A%5B%22context%2C%20domain%2C%20schedule%2C%20reads%2C%20writes%20%3D%20parse_code(%5C%22%5C%22%5C%22%5Cn%23pragma%20scop%5Cnfor%20(i%20%3D%200%3B%20i%20%3C%20N%3B%20i%2B%2B)%5Cn%20%20for%20(j%20%3D%200%3B%20j%20%3C%20M%3B%20j%2B%2B)%20%7B%5CnS%3A%20%20C%5Bi%5D%5Bj%5D%20%3D%200.0%3B%5Cn%20%20%20%20for%20(k%20%3D%200%3B%20k%20%3C%20M%3B%20%2B%2Bk)%5CnT%3A%20%20%20%20C%5Bi%5D%5Bj%5D%20%2B%3D%20A%5Bi%5D%5Bk%5D%20*%20B%5Bk%5D%5Bj%5D%3B%5Cn%20%20%7D%5Cn%23pragma%20endscop%5Cn%5C%22%5C%22%5C%22)%22%2C%22%22%2C%22%22%5D%2C%222%22%3A%5B%22print_latex(context)%22%2C%22%22%2C%22%22%5D%2C%223%22%3A%5B%22print_latex(domain)%22%2C%22%22%2C%22%22%5D%2C%224%22%3A%5B%22print_latex(schedule)%22%2C%22%22%2C%22%22%5D%2C%225%22%3A%5B%22print_latex(writes)%22%2C%22%22%2C%22%22%5D%2C%226%22%3A%5B%22print_latex(reads)%22%2C%22%22%2C%22%22%5D%2C%227%22%3A%5B%22%22%2C%22%22%2C%22%22%5D%2C%228%22%3A%5B%22%22%2C%22%22%2C%22%22%5D%7D)
 
 Demo 4: Dependence and Legality Check
-1- Download the file demo_sessions/demo_4_mat_mul_dep.json (the easiest way is to clone this repo)
-2- Go to the Polly Labs Playground [http://playground.pollylabs.org/](http://playground.pollylabs.org/)
-3- On the bar at the top click on the "Load a Session" button, then "Open from File"
-4- select the the path to demo_sessions/demo_4_mat_mul_dep.json (on your machine)
+1. Download the file demo_sessions/demo_4_mat_mul_dep.json (the easiest way is to clone this repo)
+2. Go to the Polly Labs Playground [http://playground.pollylabs.org/](http://playground.pollylabs.org/)
+3. On the bar at the top click on the "Load a Session" button, then "Open from File"
+4. select the the path to demo_sessions/demo_4_mat_mul_dep.json (on your machine)
 
 
 
