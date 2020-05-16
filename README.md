@@ -1,2 +1,4 @@
-# polydemo
+# Polyhedral Lecture Demos
 Demo for Polyhedral compilation lecture
+
+[Demo: Matrix Multiply Representation](http://playground.pollylabs.org/?sess=%7B%221%22%3A%5B%22context%20%3D%20isl.set(%5C%22%7B%20%3A%20%7D%5C%22)%5Cndomain%20%3D%20isl.union_set(%5C%22%5BN%2CM%5D-%3E%7B%20S%5Bi%2Cj%5D%20%3A%200%20%3C%3Di%3C%3DN%20and%200%3C%3Dj%3C%3DM%3B%20%20T%5Bi%2Cj%2Ck%5D%20%3A%200%20%3C%3Di%3C%3DN%20and%200%3C%3Dj%3C%3DM%20and%200%3C%3Dk%3C%3DM%20%7D%5C%22)%5Cnschedule%20%3D%20isl.union_map(%5C%22%7B%20S%5Bi%2Cj%5D%20-%3E%20W%5Bi%2Cj%2C-1%5D%20%3B%20T%5Bi%2Cj%2Ck%5D-%3EW%5Bi%2Cj%2Ck%5D%20%7D%5C%22)%5Cnschedule_domain%20%3D%20schedule.intersect_domain(domain)%5Cn%22%2C%22%22%2C%22%22%5D%2C%222%22%3A%5B%22build%20%3D%20isl.ast_build.from_context(context)%20%5Cnast%20%3D%20build.node_from_schedule_map(schedule.intersect_domain(domain))%5Cnprint_code(ast)%22%2C%22%22%2C%22%22%5D%2C%223%22%3A%5B%22%22%2C%22%22%2C%22%22%5D%7D)
